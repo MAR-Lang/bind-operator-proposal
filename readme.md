@@ -5,7 +5,7 @@ for marlang programming language.
 
 Examples:
 ```ts
-do_math: (arg1: 128, arg2: 128, arg3: 128): = arg1 + arg2 - arg3
+do_math: (arg1: 128, arg2: 128, arg3: 128): 128 = arg1 + arg2 - arg3
 bound: do_math::(1234, 432)
 printf(bound(123)) // 1543
 ```
