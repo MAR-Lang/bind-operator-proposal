@@ -13,6 +13,7 @@ printf(bound(123)) // 1543
 print_error: printf::("[ERROR]")
 // some code later
 print_error("Unacceptable value", value)
+// prints: [ERROR] Unacceptable value <value>
 ```
 
 Semantics:
